@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    color: #fff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    margin-left: 200px;
+  }
+
+  
+    body{
+        background-image: url('young-border-collie-dog-with-wide-eyes-and-a-banner-with-copy-space-on-the-left-side-also-a-photo.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+  
+  
+  .front-page {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    border: 4px solid orange;
+    width: 90%;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  header h1 {
+    font-size: 2.8em;
+    color: #4e54c8;
+    margin-bottom: 20px;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  main p {
+    font-size: 1.2em; 
+    line-height: 1.6; 
+    margin: 15px 0 30px; 
+    color: #333; 
+    
+    text-align: justify; 
+    font-family: 'Arial', sans-serif; 
+    text-indent: 20px; 
+    background-color: #f9f9f9; 
+    padding: 10px; 
+    border-left: 4px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+  }
+  
+  main p:hover {
+    color: #000; 
+    background-color: #e8f5e9; 
+    border-left-color: orange;
+  }
+  
+  
+  main .logo-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  main .logo {
+    width: 160px;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid orange;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  main button {
+    background-color: #4e54c8;
+    color: white;
+    border: none;
+    border: 4px solid orange;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  main button:hover {
+    background-color: #3b44a3;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  

@@ -1,0 +1,160 @@
+body {
+    text-align: center;
+   background-color: black;
+    
+  }
+
+  body{
+    background-image: url('cute-cartoon-dog-lying-its-belly-with-its-paws-up_14117-791995.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+  .d {
+    padding: 30px;
+    width: 600px;
+    border: 2px solid orange;
+    margin: 40px auto;
+    background-image: url('images.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    margin-right: 100px;
+  }
+  
+    
+  
+  .d:hover {
+    transform: scale(1.03);
+  }
+
+  
+  
+  h1 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1:hover {
+    animation: colorChange 10s infinite;
+  }
+  
+  @keyframes colorChange {
+    0% { color: deeppink; }
+    33% { color: cyan; }
+    66% { color: lightgray; }
+    100% { color: darkred; }
+  }
+  
+  #user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    background: #f3f4f6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 3s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  #user-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid orange;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  
+  
+  #user-name {
+    font-size: 25px;
+    font-weight: bold;
+    color: #37474f;
+    margin: 5px 0;
+  }
+  
+  #advice {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: #607d8b;
+    margin: 5px 0;
+    animation: fadeIn 2s ease-in;
+  }
+  
+  img {
+    width: 320px;
+    height: auto;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    border: 5px solid orange;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  button {
+    margin: 12px;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid orange;
+    background: linear-gradient(135deg, #42a5f5, #1e88e5);
+    color: white;
+    
+    border-radius: 30px;
+    transition: transform 0.2s, background-color 0.3s, box-shadow 0.2s;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #1e88e5, #0d47a1);
+    transform: scale(1.23);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+  }
+  
+  #result {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 25px;
+    color: #4caf50;
+    animation: bounce 1.5s ease infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  #next-btn {
+    margin-top: 25px;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #66bb6a, #388e3c);
+    color: white;
+    border-radius: 50px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s, background-color 0.3s, box-shadow 0.2s;
+  }
+  
+  #next-btn:hover {
+    background: linear-gradient(135deg, #388e3c, #2e7d32);
+    transform: scale(1.23);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+  }
+  
